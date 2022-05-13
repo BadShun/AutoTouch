@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	
+	<ScrollView
+		android:fillViewport="true"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			
+			<TextView
+				android:id="@+id/script_editor_line_number"
+				android:gravity="top|center_horizontal"
+				android:textSize="10sp"
+				android:layout_width="30dp"
+				android:layout_height="fill_parent"/>
+
+			<EditText
+				android:id="@+id/script_editor_edittext"
+				android:layout_toRightOf="@id/script_editor_line_number"
+				android:background="@drawable/edittext_background"
+				android:gravity="top"
+				android:textSize="10sp"
+				android:scrollbars="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"/>
+			
+		</RelativeLayout>
+		
+	</ScrollView>
+	
+
+</LinearLayout>
