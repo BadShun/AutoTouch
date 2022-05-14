@@ -10,9 +10,9 @@ import android.text.method.*;
 import android.util.*;
 
 public class BadEditorFragment extends Fragment {
-	private int maxLineNumber;
+    private int maxLineNumber;
 	
-	private float mTextSize;
+    private float mTextSize;
     private float mFirstTouchX;
     private float mFirstTouchY;
     private float mSecondTouchX;
